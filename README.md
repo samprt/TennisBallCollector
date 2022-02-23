@@ -59,7 +59,7 @@ ros2 launch tennis_ball_collector_launch mission_1.launch.py
 your_folder/
 │
 └───TennisBallCollector/
-│   └───compute_trajectory/
+│   └───compute_trajectory/ *Package qui supervise les décisions du robot*
 |   |
 |   └───docs/
 |   |
@@ -68,21 +68,17 @@ your_folder/
 |   |
 |   └───reports/  *Rapports PO*
 │   |
-└───ressources/
-│   |
-└───roblochon_gazebo/
+└───ressources/ *Scripts de tests*
 │   |
 └───robochon_description/  *Description du robot*
 |   |   └───urdf/  *Scripts urdf du robot*
 │   |
-└───sam_bot_description/
-│   |
 └───tennis_ball_collector_launch/  *Package launch*
-|   |   └───launch/  *Script launch*
+|   |   └───launch/  *Fichiers launch*
 |   |
 └───tennis_ball_detector/ *Packages et fichier liès à la détection des balles*
-|   |   └───ressource/  *Scritps*
-|   |   └───tennis_ball_dectector/ *Package*
+│   |
+└───robochon_control/ *Package de control du robot*
 │   |
 └───tennis_court/  *Monde de la simulation*
 │   |
